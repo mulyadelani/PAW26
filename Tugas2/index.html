@@ -1,0 +1,182 @@
+
+
+Index · HTML
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roomie - Sistem Peminjaman Ruangan ITERA</title>
+  <meta name="description" content="Website layanan peminjaman ruangan di Institut Teknologi Sumatera (ITERA), dibuat untuk Tugas 2 mata kuliah Pemrograman Web.">
+</head>
+<body>
+ 
+  <a href="#konten-utama" class="skip-link">Lompat ke konten utama</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand__logo" aria-hidden="true">SR</div>
+        <div class="brand__text">
+          <h1>Roomie ITERA</h1>
+          <p>Sistem Peminjaman Ruangan</p>
+        </div>
+      </div>
+ 
+      <nav class="main-nav" aria-label="Navigasi utama">
+        <ul>
+          <li><a href="index.html" aria-current="page">Beranda</a></li>
+          <li><a href="index.html#tentang">Tentang Layanan</a></li>
+          <li><a href="index.html#alur">Alur Peminjaman</a></li>
+          <li><a href="index.html#ruangan">Daftar Ruangan</a></li>
+          <li><a href="berita.html">Berita</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ 
+  <div class="hero">
+    <div class="hero__inner">
+      <h2>Sistem Peminjaman Ruangan ITERA</h2>
+      <p>Ajukan peminjaman ruang kelas, laboratorium, dan aula di lingkungan Institut Teknologi Sumatera secara online, cepat, dan terjadwal.</p>
+      <a href="#alur" class="btn">Cara Meminjam Ruangan</a>
+    </div>
+  </div>
+ 
+  <main id="konten-utama">
+ 
+    <section id="tentang" aria-labelledby="tentang-heading">
+      <h2 id="tentang-heading" class="section-title">Tentang Layanan</h2>
+      <p>
+        Roomie (Sistem Peminjaman Ruangan) adalah layanan digital yang disediakan oleh
+        Institut Teknologi Sumatera (ITERA) untuk memudahkan mahasiswa, himpunan, unit
+        kegiatan mahasiswa (UKM), dan dosen dalam mengajukan peminjaman ruang untuk
+        kegiatan perkuliahan, rapat organisasi, seminar, maupun acara kampus lainnya.
+      </p>
+      <p>
+        Melalui layanan ini, proses pengajuan dapat dipantau secara transparan mulai dari
+        pengajuan, verifikasi oleh pengelola gedung, hingga persetujuan akhir tanpa perlu
+        datang langsung ke bagian sarana dan prasarana.
+      </p>
+    </section>
+ 
+    <section id="alur" aria-labelledby="alur-heading">
+      <h2 id="alur-heading" class="section-title">Alur Peminjaman Ruangan</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>1. Isi Formulir</h3>
+          <p>Pemohon mengisi data peminjam, nama kegiatan, ruangan yang dituju, serta tanggal dan jam penggunaan.</p>
+        </div>
+        <div class="card">
+          <h3>2. Verifikasi Jadwal</h3>
+          <p>Sistem memeriksa ketersediaan ruangan agar tidak terjadi bentrok jadwal dengan kegiatan lain.</p>
+        </div>
+        <div class="card">
+          <h3>3. Persetujuan Pengelola</h3>
+          <p>Pengajuan diteruskan ke pengelola gedung/fakultas terkait untuk disetujui atau ditolak dengan catatan.</p>
+        </div>
+        <div class="card">
+          <h3>4. Konfirmasi &amp; Penggunaan</h3>
+          <p>Pemohon menerima konfirmasi melalui email/notifikasi dan dapat menggunakan ruangan sesuai jadwal yang disetujui.</p>
+        </div>
+      </div>
+    </section>
+ 
+    <section id="ruangan" aria-labelledby="ruangan-heading">
+      <h2 id="ruangan-heading" class="section-title">Daftar Ruangan yang Tersedia</h2>
+      <div class="data-table-wrapper">
+        <table>
+          <caption>Contoh daftar ruangan yang dapat dipinjam beserta kapasitasnya</caption>
+          <thead>
+            <tr>
+              <th scope="col">Nama Ruangan</th>
+              <th scope="col">Gedung</th>
+              <th scope="col">Kapasitas</th>
+              <th scope="col">Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ruang Kelas 302</td>
+              <td>Gedung Kuliah Umum 1</td>
+              <td>40 orang</td>
+              <td>Tersedia</td>
+            </tr>
+            <tr>
+              <td>Laboratorium Komputer IoT</td>
+              <td>Laboratorium Teknik 3</td>
+              <td>30 orang</td>
+              <td>Tersedia</td>
+            </tr>
+            <tr>
+              <td>Aula Serbaguna</td>
+              <td>Gedung Student Center</td>
+              <td>200 orang</td>
+              <td>Dipesan</td>
+            </tr>
+            <tr>
+              <td>Ruang Diskusi C105</td>
+              <td>Gedung FTI</td>
+              <td>15 orang</td>
+              <td>Tersedia</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+ 
+    <section id="syarat" aria-labelledby="syarat-heading">
+      <h2 id="syarat-heading" class="section-title">Syarat dan Ketentuan Peminjaman</h2>
+      <ul>
+        <li>Pengajuan peminjaman dilakukan paling lambat 16 hari sebelum kegiatan berlangsung.</li>
+        <li>Peminjam wajib menjaga kebersihan dan kelengkapan fasilitas ruangan.</li>
+        <li>Setiap kerusakan fasilitas akibat kelalaian peminjam menjadi tanggung jawab peminjam.</li>
+        <li>Pembatalan peminjaman wajib dikonfirmasi minimal 1 hari sebelum jadwal penggunaan.</li>
+      </ul>
+    </section>
+ 
+    <section id="berita-terbaru" aria-labelledby="berita-terbaru-heading">
+      <h2 id="berita-terbaru-heading" class="section-title">Berita &amp; Pengumuman Terbaru</h2>
+      <div class="news-preview-list">
+        <article class="news-preview">
+          <time datetime="2026-09-10">10 September 2026</time>
+          <h3><a href="berita.html#berita-1">Roomie Resmi Diluncurkan untuk Seluruh Civitas Akademika</a></h3>
+          <p>Layanan peminjaman ruangan kini dapat diakses seluruh mahasiswa dan dosen ITERA secara online.</p>
+        </article>
+        <article class="news-preview">
+          <time datetime="2026-09-05">5 September 2026</time>
+          <h3><a href="berita.html#berita-2">Penambahan Tiga Ruang Diskusi Baru di Gedung FTI</a></h3>
+          <p>Untuk menunjang kegiatan kelompok mahasiswa, tiga ruang diskusi baru kini tersedia dan dapat dipinjam.</p>
+        </article>
+      </div>
+      <p><a href="berita.html">Lihat semua berita &rarr;</a></p>
+    </section>
+ 
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h4>Roomie ITERA</h4>
+        <p>Layanan peminjaman ruangan resmi Institut Teknologi Sumatera. Tugas mata kuliah Pemrograman Web, Informatika ITERA.</p>
+      </div>
+      <div>
+        <h4>Tautan</h4>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="berita.html">Berita</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontak</h4>
+        <ul>
+          <li>Bagian Sarana &amp; Prasarana ITERA</li>
+          <li>Jl. Terusan Ryacudu, Way Huwi, Jati Agung, Lampung Selatan</li>
+          <li>roomie@itera.ac.id</li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">Informatika ITERA &copy; 2025</p>
+  </footer>
+ 
+</body>
+</html>
+ 
