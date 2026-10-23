@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.box {
+  background: #fff;
+  width: 420px;
+  padding: 24px 28px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+h1 { color: #1e5ba8; font-size: 22px; text-align: center; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  box-sizing: border-box;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 10px;
+  background: #1e5ba8;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+table { width: 100%; border-collapse: collapse; margin: 16px 0; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+th { background: #f0f4fa; width: 35%; }
